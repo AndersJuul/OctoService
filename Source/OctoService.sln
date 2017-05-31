@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoService.WebApi", "OctoService.WebApi\OctoService.WebApi.csproj", "{92EC82CE-58EB-43DB-8039-FBCCED24D33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoService.WebApi.Tests", "OctoService.WebApi.Tests\OctoService.WebApi.Tests.csproj", "{B2A665C6-081F-4ABA-93DF-73D8797EB62A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EC82CE-58EB-43DB-8039-FBCCED24D33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EC82CE-58EB-43DB-8039-FBCCED24D33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EC82CE-58EB-43DB-8039-FBCCED24D33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EC82CE-58EB-43DB-8039-FBCCED24D33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A665C6-081F-4ABA-93DF-73D8797EB62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A665C6-081F-4ABA-93DF-73D8797EB62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A665C6-081F-4ABA-93DF-73D8797EB62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A665C6-081F-4ABA-93DF-73D8797EB62A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
